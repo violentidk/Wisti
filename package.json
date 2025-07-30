@@ -1,0 +1,29 @@
+{
+  "name": "warehouse-management-system",
+  "version": "1.0.0",
+  "description": "A warehouse management system for inventory, pricing, transfers, and multi-shop/warehouse management.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "dotenv": "^8.2.0",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.0.0",
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.31"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
